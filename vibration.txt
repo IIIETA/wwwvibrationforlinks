@@ -1,0 +1,33 @@
+function vibrate() {
+
+navigator.vibrate(100);
+}
+
+
+
+var elem = document.getElementsByTagName('a');
+for(var i = 0; i < elem.length; i++) {
+ elem[i].addEventListener('click', function(){
+
+navigator.vibrate(100);
+     
+ }, false);
+}
+
+var elem = document.getElementsByTagName('button');
+for(var i = 0; i < elem.length; i++) {
+ elem[i].addEventListener('click', function(){
+
+navigator.vibrate(100);
+     
+ }, false);
+}
+
+var elem = document.getElementsByTagName('i');
+for(var i = 0; i < elem.length; i++) {
+ elem[i].addEventListener('click', function(){
+
+navigator.vibrate(100);
+     
+ }, false);
+}
