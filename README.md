@@ -6,4 +6,6 @@ AUTHOR Maciej Soroczyński
 
 Open license
 
+Works at Chrome and Opera at Android.
+
 Yeah!
